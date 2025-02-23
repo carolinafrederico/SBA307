@@ -1,0 +1,21 @@
+#top-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    border: 2px solid hotpink;
+}
+
+#main-container {
+    width: aunto;    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#carouselExampleCaptions {
+    width: 900px;
+}
+
+#sidebar {
+    width: auto;
+    border: 2px solid blueviolet
+}
