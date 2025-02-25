@@ -1,13 +1,13 @@
 .top-container {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid #a3b18a; 
+    border: 2px solid #a3b18a;
     justify-content: space-between;
     background-color: #a3b18a;
 }
 
 .main-container {
-    width: auto;    
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -21,22 +21,59 @@
 .sidebar {
     width: 400px;
     border: 2px solid #a3b18a;
-    background-color: a3b18a;
+    background-color: #a3b18a;
 }
 
 .mini-bio {
     width: 400px;
     border: 2px solid #a3b18a;
-    padding: 50px;
     background-color: #a3b18a;
 }
+
 .nav-item {
-    color: green;
+    color: #a3b18a;
 }
+
 .about {
     padding: 60px;
 }
+
 .side {
     display: flex;
     flex-wrap: wrap;
 }
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  
+/* #col {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 250px;
+} */
+
+  .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .bottom {
+    
+    align-content: center;
+    background-color: #A6B5AA;
+    padding: 50px;
+    padding-top: 10px;
+  }
+  .contact {
+    display: flex;
+    background-color: #a3b18a;
+    padding: 40px;
+  }
+  .container {
+        /* display: flex;
+        flex-wrap: wrap; */
+    width: 400px;
+    align-content: space-around;
+  }
